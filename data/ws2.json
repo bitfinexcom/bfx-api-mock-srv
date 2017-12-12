@@ -1,0 +1,89 @@
+{
+  "server.info": {
+    "event": "info",
+    "version": 2
+  },
+
+  "server.auth": {
+    "event": "auth",
+    "status": "OK",
+    "chanId": 0,
+    "userId": 0
+  },
+
+  "channel.subscribed": {
+    "event": "subscribed",
+    "channel": "trades",
+    "pair": "tBTCUSD",
+    "chanId": 42,
+    "userId": 0
+  },
+
+  "order.snapshot": [0, "os", [
+    [
+      1149684871,
+      1513083969633,
+      1513083959845,
+      "tBTCUSD",
+      1513083974086,
+      1513083974103,
+      -0.06666668,
+      -0.16666667,
+      "EXCHANGE LIMIT",
+      null,
+      null,
+      null,
+      0,
+      "PARTIALLY FILLED @ 578.81(-0.1)",
+      null,
+      null,
+      578.81,
+      578.81,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      0
+    ]
+  ]],
+
+  "n.on-req": [0, "n", [
+    null,
+    "on-req",
+    null,
+    null, [
+      0,
+      null,
+      0,
+      "tBTCUSD",
+      null,
+      null,
+      1,
+      1,
+      "EXCHANGE LIMIT",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      500,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      null,
+      null
+    ],
+    null,
+    "SUCCESS",
+    "Submitting order"
+  ]]
+}
