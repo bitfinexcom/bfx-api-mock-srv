@@ -1,0 +1,257 @@
+{
+  "connect.res": {
+    "packets": [{
+      "event": "info",
+      "version": 2
+    }]
+  },
+
+  "auth.res": {
+    "packets": [{
+      "event": "auth",
+      "status": "OK",
+      "chanId": 0,
+      "userId": 0,
+      "auth_id": "00000000-0000-0000-0000-000000000000",
+      "caps": {
+        "orders": { "read": 1, "write": 1 },
+        "account": { "read": 1, "write": 1 },
+        "funding": { "read": 1, "write": 1 },
+        "history": { "read": 1, "write": 1 },
+        "wallets": { "read": 1, "write": 1 },
+        "withdraw": { "read": 1, "write": 1 },
+        "positions": { "read": 1, "write": 1 }
+      }
+    }]
+  },
+
+  "subscribe.res": {
+    "packets": [{
+      "event": "subscribed",
+      "channel": "trades",
+      "pair": "tBTCUSD",
+      "chanId": 42,
+      "userId": 0
+    }]
+  },
+
+  "ps": null,
+
+  "ws": {
+    "packets": [[0, "ws", [
+      ["exchange", "BTC", 1.0, 0, null],
+      ["exchange", "ETH", 1.0, 0, null],
+      ["margin", "XMR", 1.0, 0, null],
+      ["margin", "LTC", 1.0, 0, null]
+    ]]]
+  },
+
+  "fos": {
+    "packets": [0, "fos", [[
+      0,
+      "BTC",
+      1513083959845,
+      1513083959845,
+      0,
+      0,
+      "lend",
+      null,
+      null,
+      null,
+      "ACTIVE",
+      null,
+      null,
+      null,
+      0,
+      0,
+      0,
+      0,
+      null,
+      0,
+      0
+    ]]]
+  },
+
+  "fcs": {
+    "packets": [0, "fcs", [[
+      0,
+      "BTC",
+      "lend",
+      1513083959845,
+      1513083959845,
+      0,
+      null,
+      "ACTIVE",
+      null,
+      null,
+      null,
+      0,
+      0,
+      1513083959845,
+      1513083959845,
+      0,
+      0,
+      null,
+      0,
+      0,
+      0,
+      "ETH"
+    ]]]
+  },
+
+  "fls": {
+    "packets": [0, "fls", [[
+      0,
+      "BTC",
+      "lend",
+      1513083959845,
+      1513083959845,
+      0,
+      null,
+      "ACTIVE",
+      null,
+      null,
+      null,
+      0,
+      0,
+      1513083959845,
+      1513083959845,
+      0,
+      0,
+      null,
+      0,
+      0,
+      0
+    ]]]
+  },
+
+  "ats": {
+    "packets": [0, "ats", []]
+  },
+
+  "os": {
+    "packets": [0, "os", [[
+      1149684871,
+      1513083969633,
+      1513083959845,
+      "tBTCUSD",
+      1513083974086,
+      1513083974103,
+      -0.06666668,
+      -0.16666667,
+      "EXCHANGE LIMIT",
+      null,
+      null,
+      null,
+      0,
+      "PARTIALLY FILLED @ 578.81(-0.1)",
+      null,
+      null,
+      578.81,
+      578.81,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0,
+      0,
+      0
+    ]]]
+  },
+
+  "on.res": {
+    "packets": [0, "n", [
+      null,
+      "on-req",
+      null,
+      null, [
+        0,
+        null,
+        0,
+        "tBTCUSD",
+        null,
+        null,
+        1,
+        1,
+        "EXCHANGE LIMIT",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        500,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null
+      ],
+      null,
+      "SUCCESS",
+      "Submitting order"
+    ]]
+  },
+
+  "oc.res": {
+    "packets": [0, "n", [
+      null,
+      "oc-req",
+      null,
+      null, [
+        0,
+        null,
+        0,
+        "tBTCUSD",
+        null,
+        null,
+        1,
+        1,
+        "EXCHANGE LIMIT",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        500,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null
+      ],
+      null,
+      "SUCCESS",
+      "Canceling order"
+    ]]
+  },
+
+  "oc_multi.res": {
+    "packets": [
+    "oc.res",
+    "oc.res"
+    ]
+  },
+
+  "ox_multi.res": {
+    "packets": [
+      "on.res",
+      "oc.res",
+      "oc_multi.res"
+    ]
+  },
+
+  "calc.res": null
+}
