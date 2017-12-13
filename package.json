@@ -27,12 +27,16 @@
     "url": "https://github.com/bitfinexcom/api-mock-srv/issues"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^3.2.0",
+    "request": "^2.83.0",
     "standard": "^10.0.2"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "debug": "^3.1.0",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "ws": "^3.3.2"
   }
 }
