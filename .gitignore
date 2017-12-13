@@ -3,3 +3,4 @@ notes
 .env
 coverage
 package-lock.json
+test
