@@ -2,7 +2,7 @@
 
 const assert = require('assert')
 const request = require('request')
-const { Given, When, Then, Before } = require('cucumber')
+const { Given, When, Then, After } = require('cucumber')
 
 const CMD_URL = 'http://localhost:9996'
 
@@ -21,9 +21,6 @@ const changeResponse = (keyString, data, cb) => {
   lastValue = data
 
   const key = encodeURIComponent(keyString)
-
-  console.log('---')
-  console.log(data)
 
   request({
     url: `${CMD_URL}/${key}`,
@@ -57,7 +54,12 @@ const readResponse = (keyString, cb) => {
 }
 
 Given(/^I have a mock v2 ws server$/, function (cb) {
-  this.resetServer().then(cb).catch(cb)
+  this.startServer()
+  cb()
+})
+
+After(function (_, cb) {
+  this.stopServer().then(cb).catch(cb)
 })
 
 When(/^I change an existing response$/, function (cb) {

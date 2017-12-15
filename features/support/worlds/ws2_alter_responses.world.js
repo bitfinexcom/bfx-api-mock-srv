@@ -9,23 +9,16 @@ class WS2AlterResponsesWorld {
     this._ws = null
   }
 
-  createServer () {
-    assert(!this._ws)
+  startServer () {
+    if (this._ws) return
     this._ws = new WS2Server({ listen: true })
   }
 
-  resetServer () {
-    return new Promise((resolve, reject) => {
-      if (!this._ws) return resolve()
+  stopServer () {
+    if (!this._ws) return Promise.resolve()
 
-      this._ws.once('close', () => {
-        this._ws = null
-        resolve()
-      })
-
-      this._ws.close()
-    }).then(() => {
-      return this.createServer()
+    return this._ws.close().then(() => {
+      this._ws = null
     })
   }
 }
