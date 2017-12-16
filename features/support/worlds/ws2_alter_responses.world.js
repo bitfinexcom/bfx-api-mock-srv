@@ -1,6 +1,5 @@
 'use strict'
 
-const assert = require('assert')
 const { setWorldConstructor } = require('cucumber')
 const WS2Server = require('../../../lib/servers/ws2')
 

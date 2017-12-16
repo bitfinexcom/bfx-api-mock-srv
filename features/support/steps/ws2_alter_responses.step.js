@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 const assert = require('assert')
 const request = require('request')
@@ -6,7 +6,6 @@ const { Given, When, Then, After } = require('cucumber')
 
 const CMD_URL = 'http://localhost:9996'
 
-let server = null
 let lastKey = null
 let lastValue = null
 
@@ -100,7 +99,7 @@ Then(/^the response is updated$/, function (cb) {
     try {
       value = JSON.parse(body)
     } catch (e) {
-      return cb(`bad response json ${body}`)
+      return cb(new Error(`bad response json ${body}`))
     }
 
     assert.deepEqual(value, { packets: [{ custom: 'response' }] })
