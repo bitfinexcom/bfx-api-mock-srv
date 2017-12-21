@@ -47,7 +47,7 @@
   },
 
   "fos": {
-    "packets": [0, "fos", [[
+    "packets": [[0, "fos", [[
       0,
       "BTC",
       1513083959845,
@@ -69,11 +69,11 @@
       null,
       0,
       0
-    ]]]
+    ]]]]
   },
 
   "fcs": {
-    "packets": [0, "fcs", [[
+    "packets": [[0, "fcs", [[
       0,
       "BTC",
       "lend",
@@ -96,11 +96,11 @@
       0,
       0,
       "ETH"
-    ]]]
+    ]]]]
   },
 
   "fls": {
-    "packets": [0, "fls", [[
+    "packets": [[0, "fls", [[
       0,
       "BTC",
       "lend",
@@ -122,15 +122,15 @@
       0,
       0,
       0
-    ]]]
+    ]]]]
   },
 
   "ats": {
-    "packets": [0, "ats", []]
+    "packets": [[0, "ats", []]]
   },
 
   "os": {
-    "packets": [0, "os", [[
+    "packets": [[0, "os", [[
       1149684871,
       1513083969633,
       1513083959845,
@@ -157,11 +157,11 @@
       0,
       0,
       0
-    ]]]
+    ]]]]
   },
 
   "on.res": {
-    "packets": [0, "n", [
+    "packets": [[0, "n", [
       null,
       "on-req",
       null,
@@ -196,11 +196,11 @@
       null,
       "SUCCESS",
       "Submitting order"
-    ]]
+    ]]]
   },
 
   "oc.res": {
-    "packets": [0, "n", [
+    "packets": [[0, "n", [
       null,
       "oc-req",
       null,
@@ -235,7 +235,7 @@
       null,
       "SUCCESS",
       "Canceling order"
-    ]]
+    ]]]
   },
 
   "oc_multi.res": {
