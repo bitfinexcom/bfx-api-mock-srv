@@ -11,7 +11,7 @@ Feature: Client can alter the mock v2 ws server responses
   Scenario: Unknown response changed
     Given I have a mock v2 ws server
     When I change an unknown response
-    Then the server responds with an error
+    Then the response is updated
 
   Scenario: Existing response requested
     Given I have a mock v2 ws server

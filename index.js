@@ -1,8 +1,6 @@
 'use strict'
 
-const REST2Server = require('./lib/servers/rest2')
-const WS2Server = require('./lib/servers/ws2')
+const MockRESTv2Server = require('./lib/servers/rest2')
+const MockWSv2Server = require('./lib/servers/ws2')
 
-// ...
-
-module.exports = { REST2Server, WS2Server }
+module.exports = { MockRESTv2Server, MockWSv2Server }

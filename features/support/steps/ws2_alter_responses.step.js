@@ -1,12 +1,11 @@
-'use strict';
+'use strict'
 
 const assert = require('assert')
 const request = require('request')
-const { Given, When, Then, Before } = require('cucumber')
+const { Given, When, Then, After } = require('cucumber')
 
 const CMD_URL = 'http://localhost:9996'
 
-let server = null
 let lastKey = null
 let lastValue = null
 
@@ -21,9 +20,6 @@ const changeResponse = (keyString, data, cb) => {
   lastValue = data
 
   const key = encodeURIComponent(keyString)
-
-  console.log('---')
-  console.log(data)
 
   request({
     url: `${CMD_URL}/${key}`,
@@ -57,7 +53,12 @@ const readResponse = (keyString, cb) => {
 }
 
 Given(/^I have a mock v2 ws server$/, function (cb) {
-  this.resetServer().then(cb).catch(cb)
+  this.startServer()
+  cb()
+})
+
+After(function (_, cb) {
+  this.stopServer().then(cb).catch(cb)
 })
 
 When(/^I change an existing response$/, function (cb) {
@@ -98,7 +99,7 @@ Then(/^the response is updated$/, function (cb) {
     try {
       value = JSON.parse(body)
     } catch (e) {
-      return cb(`bad response json ${body}`)
+      return cb(new Error(`bad response json ${body}`))
     }
 
     assert.deepEqual(value, { packets: [{ custom: 'response' }] })
