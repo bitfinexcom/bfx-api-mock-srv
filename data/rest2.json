@@ -25,5 +25,6 @@
   "symbols": [],
   "ledgers": [],
   "movements": [],
-  "user_info": []
+  "user_info": [],
+  "public_trades": []
 }
