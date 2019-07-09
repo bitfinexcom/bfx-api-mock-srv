@@ -27,5 +27,6 @@
   "ledgers": [],
   "movements": [],
   "user_info": [],
-  "public_trades": []
+  "public_trades": [],
+  "derivs_pos_col_set": []
 }
