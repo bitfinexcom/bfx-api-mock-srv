@@ -2,6 +2,7 @@
   "tickers": [],
   "tickers_hist": [],
   "ticker": [],
+  "status_messages": [],
   "stats": [],
   "candles": [],
   "alerts": [],
