@@ -26,6 +26,7 @@
   "calc": [],
   "symbols": [],
   "ledgers": [],
+  "liquidations": [],
   "movements": [],
   "user_info": [],
   "public_trades": [],
