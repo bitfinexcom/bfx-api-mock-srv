@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitfinexcom/api-mock-srv.git"
+    "url": "https://github.com/bitfinexcom/bfx-api-mock-srv.git"
   },
   "keywords": [
     "bitfinex",
@@ -24,7 +24,7 @@
   "author": "Cris Mihalache <cris.m@bitfinex.com> (https://www.bitfinex.com)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/bitfinexcom/api-mock-srv/issues"
+    "url": "https://github.com/bitfinexcom/bfx-api-mock-srv/issues"
   },
   "devDependencies": {
     "chai": "^4.1.2",
