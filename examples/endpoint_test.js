@@ -1,17 +1,10 @@
-# Bitfinex API mock server
-
-This repo hosts mock servers for the WSv2 and RESTv2 Bitfinex APIs, and is intended for testing the Bitfinex API libraries.
-
-Example usage:
-
-```js
 'use strict'
 
 process.env.DEBUG = 'bfx:*'
 
 const assert = require('assert')
 const debug = require('debug')('bfx:api:mock-srv:examples:endpoint-test')
-const { MockRESTv2Server } = require('bfx-api-mock-srv')
+const { MockRESTv2Server } = require('../')
 const { RESTv2 } = require('bfx-api-node-rest')
 
 debug('spawning mock server...')
@@ -20,7 +13,7 @@ const srv = new MockRESTv2Server({ listen: true })
 const rest = new RESTv2({
   apiKey: 'dummy',
   apiSecret: 'dummy',
-  url: 'http://localhost:9999',
+  url: 'http://localhost:9999'
 })
 
 const fundingOffer = [
@@ -40,4 +33,3 @@ rest.fundingOffers('fUSD').then(([incomingFundingOffer]) => {
 }).catch((e) => {
   debug(`error: ${e.message}`)
 })
-```
