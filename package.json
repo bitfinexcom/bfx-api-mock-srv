@@ -21,7 +21,12 @@
     "bitcoin",
     "BTC"
   ],
-  "author": "Cris Mihalache <cris.m@bitfinex.com> (https://www.bitfinex.com)",
+  "contributors": [
+    "Cris Mihalache",
+    "Ezequiel Wernicke",
+    "Vladimir Voronkov"
+  ],
+  "author": "Bitfinex",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/bitfinexcom/bfx-api-mock-srv/issues"
