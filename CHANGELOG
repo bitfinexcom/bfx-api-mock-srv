@@ -1,3 +1,6 @@
+# 1.0.0
+- bump version to move out of 0.x
+
 # 0.0.3
 - feature: add support for historical liqudidations endpoint
 - feature: add status message endpoint
