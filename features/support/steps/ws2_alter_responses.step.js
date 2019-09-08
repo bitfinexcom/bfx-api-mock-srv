@@ -84,7 +84,7 @@ When(/^I read an unknown response$/, function (cb) {
 Then(/^the response is updated$/, function (cb) {
   assert(!reqResults.err)
   assert(reqResults.res)
-  assert.equal(reqResults.res.statusCode, 200)
+  assert.strictEqual(reqResults.res.statusCode, 200)
 
   assert(lastKey)
   assert(lastValue)
@@ -102,7 +102,7 @@ Then(/^the response is updated$/, function (cb) {
       return cb(new Error(`bad response json ${body}`))
     }
 
-    assert.deepEqual(value, { packets: [{ custom: 'response' }] })
+    assert.deepStrictEqual(value, { packets: [{ custom: 'response' }] })
     cb()
   })
 })
@@ -113,7 +113,7 @@ Then(/^the server responds with an error$/, function (cb) {
 })
 
 Then(/^the server responds with that response JSON$/, function (cb) {
-  assert.deepEqual(lastValue, {
+  assert.deepStrictEqual(lastValue, {
     packets: [{
       event: 'info',
       version: 2
