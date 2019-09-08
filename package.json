@@ -32,8 +32,6 @@
     "url": "https://github.com/bitfinexcom/bfx-api-mock-srv/issues"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "cucumber": "^3.2.0",
     "request": "^2.83.0",
     "standard": "^14.1.0"
   },
