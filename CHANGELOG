@@ -1,0 +1,30 @@
+# 0.0.3
+- feature: add support for historical liqudidations endpoint
+- feature: add status message endpoint
+- fix: support dynamic keys on symbols/currencies/futures endpoints
+
+# 0.0.2
+- feature: add derivative collateral set endpoint
+- feature: support sort arg on auth trades endpoint
+- feature: add symbols endpoint
+- feature: add futures symbols endpoint
+- feature: add ledgers endpoints
+- feature: add movements endpoints
+- feature: add orders history endpoint
+- feature: add trades history endpoint
+- feature: add user info endpoint
+- feature: add funding trades endpoint
+- feature: add offers history endpoint
+- feature: add loans history endpoint
+- feature: add credits history endpoint
+- feature: add currencies endpoint
+- feature: add public trades endpoint
+- feature: add wallets history endpoint
+- feature: add positions endpoint
+- feature: add positions audit endpoint
+- feature: add historical tickers endpoint
+- fix: rm /r/ from calc endpoint URL
+- fix: re-order paths by specificity
+
+# 0.0.1
+- Initial version
