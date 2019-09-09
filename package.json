@@ -33,6 +33,8 @@
   },
   "devDependencies": {
     "bfx-api-node-rest": "^1.1.3",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.0",
     "request": "^2.83.0",
     "standard": "^14.1.0"
   },
