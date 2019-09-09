@@ -1,5 +1,12 @@
 # 1.0.0
-- bump version to move out of 0.x
+- manifest: bump version to move out of 0.x
+- manifest: set Bitfinex as author
+- manifest: populate contributors
+- add changelog
+- add readme
+- add issue/PR templates
+- add travis config
+- add temporary blank test so npm test passes
 
 # 0.0.3
 - feature: add support for historical liqudidations endpoint
