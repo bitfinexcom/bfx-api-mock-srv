@@ -22,9 +22,11 @@
     "BTC"
   ],
   "contributors": [
-    "Cris Mihalache",
-    "Ezequiel Wernicke",
-    "Vladimir Voronkov"
+    "Jacob Plaster <jacob.plaster@bitfinex.com> (https://www.bitfinex.com)",
+    "Ezequiel Wernicke <ezequiel.wernicke@bitfinex.com> (https://www.bitfinex.com)",
+    "Cris Mihalache <cris.m@bitfinex.com> (https://www.bitfinex.com)",
+    "Paolo Ardoino <paolo@bitfinex.com> (https://www.bitfinex.com)",
+    "Vladimir Voronkov <VSVoronkov@gmail.com>"
   ],
   "author": "Bitfinex",
   "license": "Apache-2.0",
