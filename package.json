@@ -1,6 +1,6 @@
 {
   "name": "bfx-api-mock-srv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bitfinex API server mock library",
   "engines": {
     "node": ">=6"
@@ -10,7 +10,11 @@
     "lint": "standard",
     "test": "npm run lint && npm run unit",
     "unit": "NODE_ENV=test istanbul cover _mocha -- -R spec -b --recursive",
-    "test-without-coverage": "NODE_ENV=test mocha -R spec -b --recursive"
+    "test-without-coverage": "NODE_ENV=test mocha -R spec -b --recursive",
+    "base_server_docs": "node_modules/jsdoc-to-markdown/bin/cli.js lib/server.js > docs/base_server.md",
+    "rest2_docs": "node_modules/jsdoc-to-markdown/bin/cli.js lib/servers/rest2.js > docs/rest2.md",
+    "ws2_docs": "node_modules/jsdoc-to-markdown/bin/cli.js lib/servers/ws2.js > docs/ws2.md",
+    "docs": "npm run base_server_docs && npm run rest2_docs && npm run ws2_docs"
   },
   "repository": {
     "type": "git",
@@ -37,6 +41,7 @@
     "babel-eslint": "^10.0.3",
     "bfx-api-node-rest": "git+http://github.com/bitfinexcom/bfx-api-node-rest.git#semver:^1.1.3",
     "istanbul": "^0.4.5",
+    "jsdoc-to-markdown": "^5.0.1",
     "mocha": "^6.2.0",
     "request": "^2.88.0",
     "standard": "^14.1.0"
