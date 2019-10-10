@@ -49,6 +49,13 @@ rest.fundingOffers('fUSD').then(([incomingFundingOffer]) => {
 })
 ```
 
+### Docs
+
+* [See `docs/base_server.md`](/docs/base_server.md) for API docs covering the base server
+* [See `docs/rest2.md`](/docs/rest2.md) for API docs convering the RESTv2 mock server
+* [See `docs/ws2.md`](/docs/ws2.md) for API docs convering the WSv2 mock server
+* [Refer to `examples/`](/examples) for executable examples
+
 ### Contributing
 
 1. Fork it
