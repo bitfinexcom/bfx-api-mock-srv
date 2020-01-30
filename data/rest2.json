@@ -10,6 +10,7 @@
   "alert_del": [],
   "trades": [],
   "wallets": [],
+  "logins_hist": [],
   "active_orders": [],
   "orders": [],
   "positions": [],
