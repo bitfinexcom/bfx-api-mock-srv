@@ -31,5 +31,6 @@
   "movements": [],
   "user_info": [],
   "public_trades": [],
-  "derivs_pos_col_set": []
+  "derivs_pos_col_set": [],
+  "account_summary": []
 }
