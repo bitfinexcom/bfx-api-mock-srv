@@ -1,3 +1,6 @@
+# 1.0.4
+- feature: add isOpen() to WSv2 mock server
+
 # 1.0.3
 - feature: add account summary endpoint
 
