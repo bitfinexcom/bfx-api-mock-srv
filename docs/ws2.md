@@ -15,6 +15,7 @@ sent in order. A packet can be a string referencing another response by key.
 
 * [WS2Server](#WS2Server)
     * [new WS2Server(args)](#new_WS2Server_new)
+    * [.isOpen()](#WS2Server+isOpen) ⇒ <code>boolean</code>
     * [.listen()](#WS2Server+listen)
     * [.close()](#WS2Server+close) ⇒ <code>Promise</code>
     * [.once(eventName, cb)](#WS2Server+once)
@@ -36,6 +37,13 @@ Spawns a new mock WS2 API server. Supported commands:
 | args.syncOnConnect | <code>boolean</code> | send snapshots to clients on connect |
 | args.listen | <code>boolean</code> | if true, listen() is called automatically |
 
+<a name="WS2Server+isOpen"></a>
+
+### wS2Server.isOpen() ⇒ <code>boolean</code>
+Returns server active status
+
+**Kind**: instance method of [<code>WS2Server</code>](#WS2Server)  
+**Returns**: <code>boolean</code> - open  
 <a name="WS2Server+listen"></a>
 
 ### wS2Server.listen()
