@@ -1,3 +1,6 @@
+# 1.0.11
+- feature: add margin symbols endpoint
+
 # 1.0.10
 - feature: public pulse history rest2 endpoint
 - feature: private pulse history rest2 endpoint
