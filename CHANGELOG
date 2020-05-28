@@ -1,3 +1,10 @@
+# 1.0.12
+- feature: /v2/calc/trade/avg endpoint mock
+- feature: /v2/auth/w/deposit/invoice endpoint mock
+- feature: /v2/auth/w/funding/keep endpoint mock
+- feature: /v2/auth/w/order/cancel/multi endpoint mock
+- feature: /v2/auth/w/order/multi endpoint mock
+
 # 1.0.11
 - feature: add margin symbols endpoint
 
