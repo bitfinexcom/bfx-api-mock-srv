@@ -36,7 +36,6 @@
   "devDependencies": {
     "bfx-api-node-rest": "^3.0.15",
     "dmd-readable": "^1.2.1",
-    "docdash": "^1.2.0",
     "eslint": "^7.2.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
