@@ -1,7 +1,7 @@
 # 1.0.14
 - meta: bump minimum node version to 7.6.0
 - meta: update all deps
-- meta: add standard eslint/jsdoc configs
+- meta: standardize eslint config
 - meta: replace istanbul w/ nyc
 - feature: improve JSDoc doclets
 - refactor: export MockServer
