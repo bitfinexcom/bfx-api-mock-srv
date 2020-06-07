@@ -1,3 +1,6 @@
+# 1.0.13
+- feature: add inactive symbols endpoint
+
 # 1.0.12
 - feature: /v2/calc/trade/avg endpoint mock
 - feature: /v2/auth/w/deposit/invoice endpoint mock
