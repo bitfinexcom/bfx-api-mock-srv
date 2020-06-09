@@ -6,9 +6,8 @@ const MockRESTv2Server = require('./lib/rest2')
 
 /**
  * This module hosts mock servers for the
- * {@link module:bfx-api-mock-srv.MockWSv2Server|WSv2} and
- * {@link module:bfx-api-mock-srv.MockRESTv2Server|RESTv2} Bitfinex APIs, and
- * is intended for testing the Bitfinex API libraries.
+ * {@link MockWSv2Server|WSv2} and {@link MockRESTv2Server|RESTv2} Bitfinex
+ * APIs, and is intended for testing the Bitfinex API libraries.
  *
  * @license Apache-2.0
  * @module bfx-api-mock-srv
