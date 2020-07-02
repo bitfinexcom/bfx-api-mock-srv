@@ -1,3 +1,7 @@
+# 1.0.15
+- feature: add set user settings endpoint
+- feature: add get user settings endpoint
+
 # 1.0.14
 - meta: bump minimum node version to 7.6.0
 - meta: update all deps
