@@ -34,5 +34,7 @@
   "derivs_pos_col_set": [],
   "account_summary": [],
   "change_log": [],
-  "inactive_symbols": []
+  "inactive_symbols": [],
+  "set_settings": [],
+  "get_settings": []
 }
