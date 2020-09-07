@@ -36,5 +36,6 @@
   "change_log": [],
   "inactive_symbols": [],
   "set_settings": [],
-  "get_settings": []
+  "get_settings": [],
+  "generate_token": []
 }
