@@ -1,3 +1,7 @@
+# 1.0.17
+- feature: add map symbols endpoint
+- feature: add inactive currencies endpoint
+
 # 1.0.16
 - feature: add generate token endpoint
 

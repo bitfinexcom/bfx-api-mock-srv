@@ -37,5 +37,7 @@
   "inactive_symbols": [],
   "set_settings": [],
   "get_settings": [],
-  "generate_token": []
+  "generate_token": [],
+  "map_symbols": [],
+  "inactive_currencies": []
 }
