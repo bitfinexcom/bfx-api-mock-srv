@@ -1,3 +1,10 @@
+# 1.1.1
+- feature: add order submit endpoint
+- feature: add auth permissions endpoint
+- feature: add pair info endpoint
+- feature: add currency tx fee endpoint
+- fix: fix account summary endpoint
+
 # 1.1.0
 - feature: dynamic responses
 
