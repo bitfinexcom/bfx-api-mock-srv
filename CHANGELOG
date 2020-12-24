@@ -1,3 +1,6 @@
+# 1.1.0
+- feature: dynamic responses
+
 # 1.0.17
 - feature: add map symbols endpoint
 - feature: add inactive currencies endpoint
