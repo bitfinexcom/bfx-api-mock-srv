@@ -271,6 +271,7 @@ Spawns a new mock WS2 API server. Supported commands:
 | [args.apiPort] | <code>number</code> | <code>9997</code> | which port to listen on for ws   clients |
 | [args.cmdPort] | <code>number</code> | <code>9996</code> | which port to listen on for commands |
 | [args.syncOnConnect] | <code>boolean</code> | <code>true</code> | send snapshots to clients on   connect |
+| [args.authMiddleware=] | <code>function</code> |  | handle auth response |
 | [args.listen] | <code>boolean</code> | <code>true</code> | if true, listen() is called   automatically |
 
 <a name="MockWSv2Server+isOpen"></a>
