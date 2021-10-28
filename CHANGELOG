@@ -1,3 +1,6 @@
+# 1.1.6
+- feature: add core settings endpoint
+
 # 1.1.5
 - feature: add complete invoice for merchant endpoint
 
