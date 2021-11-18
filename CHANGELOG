@@ -1,3 +1,7 @@
+# 1.2.0
+- feature: add delete token endpoint
+- feature: add unlinked deposits for merchant endpoint
+
 # 1.1.6
 - feature: add core settings endpoint
 
