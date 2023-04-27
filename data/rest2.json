@@ -43,5 +43,6 @@
   "auth_permissions": [],
   "map_ccy_fees": [],
   "info_pairs": [],
-  "order_submit": []
+  "order_submit": [],
+  "movement_info": []
 }
