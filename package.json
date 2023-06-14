@@ -1,6 +1,6 @@
 {
   "name": "bfx-api-mock-srv",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Bitfinex API server mock library",
   "engines": {
     "node": ">=7.6.0"
@@ -28,7 +28,8 @@
     "Cris Mihalache <cris.m@bitfinex.com> (https://www.bitfinex.com)",
     "Paolo Ardoino <paolo@bitfinex.com> (https://www.bitfinex.com)",
     "Vladimir Voronkov <VSVoronkov@gmail.com>",
-    "Vigan Abdurrahmani <vigan.abdurrahmani@bitfinex.com> (https://www.bitfinex.com)"
+    "Vigan Abdurrahmani <vigan.abdurrahmani@bitfinex.com> (https://www.bitfinex.com)",
+    "Sergio López <sergio.rico@bitfinex.com> (https://www.bitfinex.com)"
   ],
   "author": "Bitfinex",
   "license": "Apache-2.0",
