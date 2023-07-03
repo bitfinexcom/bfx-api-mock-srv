@@ -44,5 +44,6 @@
   "map_ccy_fees": [],
   "info_pairs": [],
   "order_submit": [],
-  "movement_info": []
+  "movement_info": [],
+  "weighted_averages": []
 }
