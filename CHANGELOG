@@ -1,3 +1,6 @@
+# 1.6.0
+- feature: add weighted averages endpoint
+
 # 1.5.0
 - feature: add invoice/currency/detailed endpoint for merchant
 
