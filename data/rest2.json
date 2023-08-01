@@ -45,5 +45,9 @@
   "info_pairs": [],
   "order_submit": [],
   "movement_info": [],
-  "weighted_averages": []
+  "weighted_averages": [],
+  "map_ccy_label": [],
+  "futures_currencies": [],
+  "securities_currencies": [],
+  "margin_currencies": []
 }
