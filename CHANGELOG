@@ -1,3 +1,6 @@
+# 1.8.0
+- feature: add platform/status endpoint
+
 # 1.7.0
 - feature: add conf/pub/map/currency/label endpoint
 - feature: add conf/pub/list/currency/futures endpoint

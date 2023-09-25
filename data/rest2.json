@@ -49,5 +49,6 @@
   "map_ccy_label": [],
   "futures_currencies": [],
   "securities_currencies": [],
-  "margin_currencies": []
+  "margin_currencies": [],
+  "platform_status": []
 }
