@@ -1,6 +1,6 @@
 {
   "name": "bfx-api-mock-srv",
-  "version": "1.8.0",
+  "version": "2.0.0",
   "description": "Bitfinex API server mock library",
   "engines": {
     "node": ">=7.6.0"

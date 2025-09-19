@@ -1,3 +1,7 @@
+# 2.0.0
+- breaking change: remove pulse endpoints
+- breaking change: remove pay endpoints
+
 # 1.8.0
 - feature: add platform/status endpoint
 
