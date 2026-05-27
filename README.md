@@ -41,7 +41,7 @@ srv.setResponse('f_offers.fUSD', [fundingOffer])
 
 debug('requesting preset response...')
 
-rest.fundingOffers('fUSD').then(([incomingFundingOffer]) => {
+rest.fundingOffers({ symbol: 'fUSD' }).then(([incomingFundingOffer]) => {
   assert.deepStrictEqual(incomingFundingOffer, fundingOffer)
 
   debug('correct response received')
