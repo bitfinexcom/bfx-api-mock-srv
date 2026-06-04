@@ -67,7 +67,7 @@ srv.setResponse('f_offers.fUSD', [FUNDING_OFFER])
 
 debug('requesting preset response...')
 
-rest.fundingOffers('fUSD').then(([incomingFundingOffer]) => {
+rest.fundingOffers({ symbol: 'fUSD' }).then(([incomingFundingOffer]) => {
   assert.deepStrictEqual(incomingFundingOffer, FUNDING_OFFER)
 
   debug('correct response received')
@@ -346,4 +346,3 @@ Sets the provided data as the server response for the given key.
 | --- | --- | --- |
 | key | <code>string</code> | key |
 | data | <code>Array</code> \| <code>object</code> | data |
-
