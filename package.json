@@ -1,16 +1,15 @@
 {
   "name": "bfx-api-mock-srv",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Bitfinex API server mock library",
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=22.0.0"
   },
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && npm run unit",
-    "lint": "standard",
-    "lint:fix": "standard --fix",
-    "unit": "NODE_ENV=test ./node_modules/.bin/nyc --reporter=lcov --reporter=html mocha -b --recursive",
+    "test": "npm run lint",
+    "lint": "bfx-lint-js .",
+    "lint:fix": "bfx-lint-js . --fix",
     "docs": "rm -rf docs/*.md && ./node_modules/.bin/jsdoc2md -f index.js 'lib/**/*.js' > docs/reference.md"
   },
   "repository": {
@@ -38,16 +37,13 @@
   },
   "devDependencies": {
     "bfx-api-node-rest": "^8.0.0",
-    "jsdoc-to-markdown": "^6.0.1",
-    "mocha": "^7.2.0",
-    "nyc": "^15.1.0",
-    "standard": "^17.1.0"
+    "jsdoc-to-markdown": "^6.0.1"
   },
   "dependencies": {
+    "@bitfinex/lint-js": "^1.1.0",
     "body-parser": "^1.19.0",
     "debug": "^4.1.1",
     "express": "^4.17.1",
-    "lodash": "^4.17.15",
     "ws": "^7.1.2"
   }
 }
