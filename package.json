@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "bfx-api-node-rest": "^8.0.0",
-    "jsdoc-to-markdown": "^6.0.1"
+    "jsdoc-to-markdown": "^9.1.3"
   },
   "dependencies": {
     "@bitfinex/lint-js": "^1.1.0",
