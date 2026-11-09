@@ -19,11 +19,8 @@ npm i --save bfx-api-mock-srv
 
 ```js
 const assert = require('assert')
-const debug = require('debug')('bfx:api:mock-srv:examples:endpoint-test')
 const { MockRESTv2Server } = require('bfx-api-mock-srv')
 const { RESTv2 } = require('bfx-api-node-rest')
-
-debug('spawning mock server...')
 
 const srv = new MockRESTv2Server({ listen: true })
 const rest = new RESTv2({
@@ -39,15 +36,10 @@ const fundingOffer = [
 
 srv.setResponse('f_offers.fUSD', [fundingOffer])
 
-debug('requesting preset response...')
-
 rest.fundingOffers({ symbol: 'fUSD' }).then(([incomingFundingOffer]) => {
   assert.deepStrictEqual(incomingFundingOffer, fundingOffer)
-
-  debug('correct response received')
+  
   srv.close()
-}).catch((e) => {
-  debug(`error: ${e.message}`)
 })
 ```
 
