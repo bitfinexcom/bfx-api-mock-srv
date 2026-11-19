@@ -1,3 +1,6 @@
+# 4.0.2
+- bump bfx-api-node-rest to 9.0.2
+
 # 4.0.1
 - fix: MockWSv2Server crashed on construction (`this.this.debug` → `this.debug`)
 
