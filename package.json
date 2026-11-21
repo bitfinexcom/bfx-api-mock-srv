@@ -1,6 +1,6 @@
 {
   "name": "bfx-api-mock-srv",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Bitfinex API server mock library",
   "keywords": [
     "bitfinex",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@bitfinex/lint-js": "^1.1.0",
-    "bfx-api-node-rest": "^8.0.0"
+    "bfx-api-node-rest": "^9.0.2"
   },
   "engines": {
     "node": ">=22.0.0"
